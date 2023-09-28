@@ -1,0 +1,49 @@
+body {
+    margin 0;
+    padding 0;
+}
+
+.nav {
+    position: absolute;
+    margin-left: 104px;
+    margin-top: 84px;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+* {
+    margin 0;
+    padding 0;
+}
+
+.nav-elem {
+    font-size: 21px;
+    color: #232323;
+    text-decoration: none;
+    font-family: 'Lato Black', sans-serif;
+}
+
+.nav-elem1 {
+    font-size: 20px;
+    color: #232323;
+    text-decoration: none;
+    font-family: 'Lato Light';
+    margin-left: 71px;
+}
+
+.nav-elem2 {
+    font-size: 20px;
+    color: #232323;
+    text-decoration: none;
+    font-family: 'Lato Light';
+    margin-left: 73px;
+}
+
+.nav-elem3 {
+    font-size: 20px;
+    color: #232323;
+    text-decoration: none;
+    font-family: 'Lato Light';
+    margin-left: 72px;
+}
+

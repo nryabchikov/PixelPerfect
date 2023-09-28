@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5706f430-82ee-49ba-b039-93e9684baf61" name="Changes" comment="feat: template html and css file.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="5706f430-82ee-49ba-b039-93e9684baf61" name="Changes" comment="feat: header with styles, background" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +49,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695316910666</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: header with styles, background">
+      <created>1695928672629</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695928672629</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,6 +72,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: template html and css file." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: template html and css file." />
+    <MESSAGE value="feat: header with styles, background" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: header with styles, background" />
   </component>
 </project>

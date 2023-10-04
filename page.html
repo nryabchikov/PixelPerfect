@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.cdnfonts.com/css/lato-black" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/lato-light" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="header__links">
-                <a href="">home</a>
-                <a href="">guides</a>
-                <a href="">flights</a>
-                <a href="">about</a> 
-                <a href="">contact us</a>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="nav">
+                    <a class="nav__links active" href="">home</a>
+                    <a class="nav__links" href="">guides</a>
+                    <a class="nav__links" href="">flights</a>
+                    <a class="nav__links" href="">about</a> 
+                </nav>
+
+                <a class="contact__us" href="">Contact Us</a>   
             </div>
-        </nav>
-
-        <div><h1>Travel to your dream destination</h1></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
-
-        <img class="header_img" src="img/image.png">
-
+        </div>
     </header>
-   
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="into__title">Travel to your dream destination</h1>
+                <p class="into__suptitle">
+                    Lorem ipsum dolor sit amet, consectetur adipi scing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Quis ipsum sus pendisse ultrices gravida.
+                </p>
+                <!--  -->
+            </div>
+            <img class="header_img" src="img/image.png">
+            <a class="reserve__ticket" href="">Reserve Ticket</a>  
+        </div>
+    </div>
+     
+        
 </body>
 </html>

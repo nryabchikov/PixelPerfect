@@ -1,11 +1,21 @@
+body{
+    margin: 0;
+}
 .header{
     width: 100%;
+    height: 200px;
+    /*border: 3px solid #e70808;*/
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .intro{
     width: 100%;
-    height: 100vh;
-    margin-top: 107px;
-    margin-left: 2px;
+    height: 577px;
+    padding-top: 11px;
+    padding-left: 2px;
+    /*border: 3px solid #89d311;*/
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .intro__inner{
     width: 100%;
@@ -92,21 +102,26 @@
     background: #232323;
     padding: 12px 55px;
     border-radius: 5px;
-
 }
 .logs{
+    max-width: 1440px;
     width: 100%;
+    margin: 0 auto;
+    height: 387px;
+    /*border: 3px solid #1ad6c7;*/
     background: #232323;
 }
 .logs__header{
-    width: 450px;
     text-align: center;
+    width: 470px;
+    margin: 0 auto;
 }
 .logs__title{
     font-family: 'Cardo', serif;
     font-weight: 700;
     color: #e9e7e7;
     font-size: 55.46px;
+    padding-top:37px;
 }
 .logs__subtitle{
     font-family: 'Lato', sans-serif;

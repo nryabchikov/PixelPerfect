@@ -208,6 +208,7 @@ a{
 }
 
 .plane__title {
+    text-align: justify;
     font-size: 99.665px;
     font-family: "Cardo";
     color: rgb(35, 35, 35);
@@ -215,27 +216,27 @@ a{
     line-height: 1;
     text-align: center;
     margin-top: 56px;
-    margin-left: 15px; 
+    margin-left: 6px;
+    letter-spacing: -0.005em;
     
     
 }
 
 .plane__subtitle {
-    font-size: 25px;
-    letter-spacing: -1px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: -0.006em;
     color: #232323;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
-    text-align: center;
     margin-top: 59px;
-    margin-right: 18px;
 }
 
 .text__underline{
-/*    text-decoration: underline 5px;*/
     font-style: italic;
-    border-bottom: 5px solid black;
-    
+
 }
+
+
 
 

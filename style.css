@@ -237,6 +237,58 @@ a{
 
 }
 
+/*Mountain's section*/
 
+.section_mountains{
+    max-width: 1440px;
+    height: 610;
+    border: 3px solid #1ad623;
+    margin: 0 auto;
+}
+
+.mountain__sides{
+   border: 3px solid #d61a1a;
+   display: flex;
+}
+
+.first_mountain_img{
+    border: 3px solid #781ad6;
+}
+
+.second_mountain_img{
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid #d67e1a;
+}
+
+.mountains_title{
+    width: 240px;
+    border: 3px solid #d67e1a;
+    font-family: 'Cardo', serif;
+    font-weight: 700;
+    font-size: 36.34px;
+    line-height: 1.376;
+}
+
+.mountains__subtitle{
+    width: 325px;
+    border: 3px solid #d67e1a;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    font-size: 16.66px;
+    margin-left: 40px;
+}
+
+.mountains_texts{
+    display: flex;
+}
+
+.right__mountain_side{
+    margin-left: 43px;
+}
+
+.section__mountains__underline{
+        border-bottom: 5px solid black;        
+}
 
 

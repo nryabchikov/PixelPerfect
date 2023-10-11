@@ -270,7 +270,7 @@ a{
     font-weight: 700;
     font-size: 36.34px;
     line-height: 1.376;
-    padding-top: 63px;
+    padding-top: 64px;
     padding-left: 5px;
 }
 
@@ -286,6 +286,7 @@ a{
 
 .mountains__subtitle__2{
     width: 325px;
+    height: 226px;
    /* border: 3px solid #d67e1a;*/
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
@@ -303,14 +304,41 @@ a{
 }
 
 .section__mountains__underline{
-    border-bottom: 5px solid black;       
+    /*border-bottom: 2px solid black;     */
+    position: relative;
 }
 
-.horizontal line{
-    width: 100px; 
-    height: 2px; 
-    background-color: #000; 
-    
+.section__mountains__underline::before{
+    content: "";
+    position: absolute;
+    bottom: 1px; 
+    width: 100%;
+    border-bottom: 4px solid #000;  
 }
 
+.top__tilted__line{
+    width: 38px; 
+    height: 3px; 
+    background-color: #000;
+    float: right;
+    margin-top: -11px;
+    transform: rotate(45deg);
+    border-bottom: 2px solid black;
+}
 
+.horizontal__line{
+    width: 140px; 
+    height: 3px; 
+    background-color: #000;
+    margin-top: 4px;
+    margin-left: 225px; /*Пожалуйста, ПРИДУМАЙТЕ, КАК ЭТО ПОФИКСИТЬ, Я УЖЕ УСТАЛ СИДЕТЬ В ПОДВАЛЕ И РАБОТАТЬ НА КИТАЙ, ХАЧУ ДАМОЙ*/
+}
+
+.bottom__tilted__line{
+    width: 38px; 
+    height: 3px; 
+    background-color: #000;
+    float: right;
+    margin-top: 17px;
+    transform: rotate(135deg); 
+}

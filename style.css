@@ -242,41 +242,56 @@ a{
 .section_mountains{
     max-width: 1440px;
     height: 610;
-    border: 3px solid #1ad623;
+   /* border: 3px solid #1ad623;*/
     margin: 0 auto;
 }
 
 .mountain__sides{
-   border: 3px solid #d61a1a;
+  /* border: 3px solid #d61a1a;*/
    display: flex;
 }
 
 .first_mountain_img{
-    border: 3px solid #781ad6;
+    padding-left: 5px;
+    /*border: 3px solid #781ad6;*/
 }
 
 .second_mountain_img{
     display: inline-block;
     vertical-align: top;
-    border: 3px solid #d67e1a;
+    padding-left: -8px;
+    /*border: 3px solid #d67e1a;*/
 }
 
 .mountains_title{
     width: 240px;
-    border: 3px solid #d67e1a;
+   /* border: 3px solid #d67e1a;*/
     font-family: 'Cardo', serif;
     font-weight: 700;
     font-size: 36.34px;
     line-height: 1.376;
+    padding-top: 63px;
+    padding-left: 5px;
 }
 
-.mountains__subtitle{
+.mountains__subtitle__1{
     width: 325px;
-    border: 3px solid #d67e1a;
+    /*border: 3px solid #d67e1a;*/
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     font-size: 16.66px;
-    margin-left: 40px;
+    margin-left: 43px;
+    padding-top: 72px;
+}
+
+.mountains__subtitle__2{
+    width: 325px;
+   /* border: 3px solid #d67e1a;*/
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    font-size: 16.66px;
+    margin-left: 43px;
+    padding-top: 26px;
 }
 
 .mountains_texts{
@@ -288,7 +303,14 @@ a{
 }
 
 .section__mountains__underline{
-        border-bottom: 5px solid black;        
+    border-bottom: 5px solid black;       
+}
+
+.horizontal line{
+    width: 100px; 
+    height: 2px; 
+    background-color: #000; 
+    
 }
 
 

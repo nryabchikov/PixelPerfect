@@ -198,7 +198,7 @@ a{
 .section__plane {
     max-width: 820px;
     margin: 0 auto;
-    height: 425px;
+    height: 685px;
     margin-top: 53px;
 /*    border: 3px solid #11cf60;*/
 }
@@ -270,7 +270,7 @@ a{
     font-weight: 700;
     font-size: 36.34px;
     line-height: 1.376;
-    padding-top: 64px;
+    padding-top: 68px;
     padding-left: 5px;
 }
 
@@ -281,7 +281,7 @@ a{
     font-weight: 400;
     font-size: 16.66px;
     margin-left: 43px;
-    padding-top: 72px;
+    padding-top: 76px;
 }
 
 .mountains__subtitle__2{
@@ -292,7 +292,7 @@ a{
     font-weight: 400;
     font-size: 16.66px;
     margin-left: 43px;
-    padding-top: 26px;
+    padding-top: 28px;
 }
 
 .mountains_texts{
@@ -305,7 +305,7 @@ a{
 
 .section__mountains__underline{
     /*border-bottom: 2px solid black;     */
-    position: relative;
+    position:  relative;
 }
 
 .section__mountains__underline::before{

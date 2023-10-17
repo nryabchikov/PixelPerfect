@@ -492,6 +492,7 @@ a{
     font-weight: 400;
     font-family: 'Lato', sans-serif;
     margin-bottom: 57px;
+    resize: none;
 }
 
 .register__form button {
@@ -506,8 +507,19 @@ a{
     font-family: "Lato";
     text-align: center;
     margin-left: -1.5px;
+    letter-spacing: 0.7px;
 }
 
+input::placeholder {
+    padding-left: 23px;
+    word-spacing: 2px;
+}
+
+textarea::placeholder {
+    padding-left: 23px; 
+    padding-top: 18px;
+    word-spacing: 2px;
+}
 /*Footer*/
 
 .footer {

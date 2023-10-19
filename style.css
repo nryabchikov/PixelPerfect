@@ -233,7 +233,22 @@ a{
     margin: 0 auto;
     height: 690px;
     margin-top: 53px;
+    position: relative;
+    z-index: 2;
 /*    border: 3px solid #11cf60;*/
+}
+
+.section__plane__scribble__dark {
+    position: absolute;
+    left: -175px;
+    top: 425px;
+}
+
+.section__plane__scribble__lightest {
+    position: absolute;
+    right: -570px;
+    top: -170px;
+    z-index: 1;
 }
 
 .plane__img {

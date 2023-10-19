@@ -16,7 +16,6 @@ a{
     margin: 0 auto;
     /*border: 3px solid #e70808;*/
     padding-top: 100px;
-    background: #e9e7e7;
 }
 .container{
     max-width: 1215px;
@@ -66,14 +65,11 @@ a{
     margin: 0 auto;
     padding-top: 65px;
     /*border: 3px solid #16c9ab;*/
-    background: #e9e7e7;
 }
 .intro__inner{
     display: flex;
     justify-content: space-between;
     /*border: 3px solid #1c6ac4;*/
-    position: relative;
-    z-index: 2;
 }
 .intro__left{
     line-height: 1;
@@ -110,18 +106,6 @@ a{
 .intro__img{
     margin-right: 19px;
 }
-.intro__img__light{
-    position: absolute;
-    top: 345px;
-    left: 185px;
-    z-index: 1;
-}
-.intro__img__dark{
-    position: absolute;
-    top: 526px;
-    left: 1553px;
-    z-index: 1;
-}
 
 /*  Logs  */
 
@@ -131,14 +115,11 @@ a{
     height: 387px;
     /*border: 3px solid #1ad6c7;*/
     background: #232323;
-    position: relative;
-    z-index: 2;
 }
 .logs__inner{
     width: 470px;
     margin: 0 auto;
     text-align: center;
-
 }
 .logs__title{
     font-family: 'Cardo', serif;
@@ -169,18 +150,7 @@ a{
     background: #232323;
     padding: 13px 56px;
 }
-.logs__img__left{
-    position: absolute;
-    top: 52px;
-    left: 0px;
-    z-index: 1;
-}
-.logs__img__right{
-    position: absolute;
-    top: 236px;
-    left: 965px;
-    z-index: 1;
-}
+
 /*  section  */
 
 .section{
@@ -286,6 +256,7 @@ a{
     height: 824px;
    /* border: 3px solid #1ad623; */
     margin: 0 auto;
+    position: relative;
 }
 
 .mountain__sides{
@@ -376,6 +347,12 @@ a{
     border-bottom: 2px solid black;
 }
 
+.section__mountain__tape {
+    position: absolute;
+    left: 85px;
+    top: 258px;
+}
+
 .horizontal__line{
     width: 140px; 
     height: 3px; 
@@ -386,7 +363,7 @@ a{
     float: right;
     /* padding-left: 30px; */
     /* margin-left: 225px; Пожалуйста, ПРИДУМАЙТЕ, КАК ЭТО ПОФИКСИТЬ, Я УЖЕ УСТАЛ СИДЕТЬ В ПОДВАЛЕ И РАБОТАТЬ НА КИТАЙ, ХАЧУ ДАМОЙ */
-}
+}           /*Димка, мальчик мой, дай Бог тебе здоровья за этот фикс*/
 
 .bottom__tilted__line{
     width: 38px; 
@@ -501,6 +478,83 @@ a{
     margin-left: 73px;
 }
 
+/* feedbacks */
+.container__feedbacks {
+    max-width: 1440px;
+    margin: 0 auto;  
+}
+
+.container__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.feedbacks__title {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.title_text {
+    font-size: 81.46px; 
+    font-family: 'Cardo', serif;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+  
+
+.feedbacks__window__container {
+    height: 580px;
+    width: 1212px;
+    border: 3px solid red;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback {
+    height: 428px;
+    width: 390px; 
+    margin: 0 40px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;     
+}
+
+.customer__name {
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    align-items: center; /* Центрировать по вертикали */
+    width: 435px;
+    height: 50px;
+    margin-top: 80px;
+}
+.name__text {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lato', serif;
+    font-size: 25px;
+    color: #000;
+}
+.customer__text {
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    width: 350px;
+    height: auto;
+}
+
+.feedback__text {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Lato', serif;
+    font-size: 25px;
+}
+
 /*register form*/
 .register__form {
     max-width: 1214px;
@@ -603,6 +657,12 @@ textarea::placeholder {
 .footer__inner {
     display: flex;
     padding-top: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer__decorations {
+    max-width: 2000px;
 }
 
 .footer__col--first {
@@ -675,81 +735,9 @@ textarea::placeholder {
     margin-top: 30px;
 }
 
-/* feedbacks */
-.container__feedbacks {
-    max-width: 1440px;
-    margin: 0 auto;  
-}
-
-.container__inner {
-    display: flex;
-    justify-content: center;
-}
-
-.feedbacks__title {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.title_text {
-    font-size: 81.46px; 
-    font-family: 'Cardo', serif;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-}
-  
-
-.feedbacks__window__container {
-    height: 580px;
-    width: 1212px;
-    border: 3px solid red;    
-    justify-content: space-between;
-    align-items: center;
-}
-
-.feedback {
-    height: 428px;
-    width: 390px; 
-    margin: 0 40px; 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;     
-}
-
-.customer__name {
-    justify-content: center;
+.decoration__footer {
     position: absolute;
-    display: flex;
-    align-items: center; /* Центрировать по вертикали */
-    width: 435px;
-    height: 50px;
-    margin-top: 80px;
+    left: -490px;
+    bottom: -150px;
+    z-index: 1;
 }
-.name__text {
-    text-align: center;
-    font-weight: 900;
-    font-family: 'Lato', serif;
-    font-size: 25px;
-    color: #000;
-}
-.customer__text {
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    align-items: flex-end;
-    width: 350px;
-    height: auto;
-}
-.feedback__text {
-    text-align: center;
-    font-weight: 400;
-    font-family: 'Lato', serif;
-    font-size: 25px;
-}
-
-
-

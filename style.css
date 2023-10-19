@@ -431,11 +431,11 @@ a{
 .section__last__img{
     margin-left: 73px;
 }
-/* register form */
 
+/*register section*/
 .register__form {
     max-width: 1214px;
-    height: 736px;
+    height: 948px;
     margin: 0 auto;
     margin-top: 50px;
 /*    border: 3px solid red;*/
@@ -478,6 +478,7 @@ a{
     color: #232323;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
+    padding-left: 24px;
 }
 
 .register__form textarea {
@@ -493,6 +494,8 @@ a{
     font-family: 'Lato', sans-serif;
     margin-bottom: 57px;
     resize: none;
+    padding-top: 20px;
+    padding-left: 23px;
 }
 
 .register__form button {
@@ -506,7 +509,6 @@ a{
     font-weight: 400;
     font-family: "Lato";
     text-align: center;
-    margin-left: -1.5px;
     letter-spacing: 0.7px;
 }
 

@@ -286,11 +286,18 @@ a{
     height: 824px;
    /* border: 3px solid #1ad623; */
     margin: 0 auto;
+    position: relative;
 }
 
 .mountain__sides{
   /* border: 3px solid #d61a1a;*/
    display: flex;
+}
+
+.section__mountain__tape {
+    position: absolute;
+    left: 85px;
+    top: 258px;
 }
 
 .first_mountain_img{
@@ -386,6 +393,7 @@ a{
     float: right;
     /* padding-left: 30px; */
     /* margin-left: 225px; Пожалуйста, ПРИДУМАЙТЕ, КАК ЭТО ПОФИКСИТЬ, Я УЖЕ УСТАЛ СИДЕТЬ В ПОДВАЛЕ И РАБОТАТЬ НА КИТАЙ, ХАЧУ ДАМОЙ */
+     /*Димка, мальчик мой, дай Бог тебе здоровья за этот фикс*/
 }
 
 .bottom__tilted__line{
@@ -591,8 +599,6 @@ textarea::placeholder {
     padding-top: 18px;
     word-spacing: 2px;
 }
-/*Footer*/
-
 .footer {
     background-color: #c4c4c4;
     height: 575px;
@@ -603,6 +609,12 @@ textarea::placeholder {
 .footer__inner {
     display: flex;
     padding-top: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer__decorations {
+    max-width: 2000px;
 }
 
 .footer__col--first {
@@ -675,81 +687,10 @@ textarea::placeholder {
     margin-top: 30px;
 }
 
-/* feedbacks */
-.container__feedbacks {
-    max-width: 1440px;
-    margin: 0 auto;  
-}
-
-.container__inner {
-    display: flex;
-    justify-content: center;
-}
-
-.feedbacks__title {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-}
-.title_text {
-    font-size: 81.46px; 
-    font-family: 'Cardo', serif;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-}
-  
-
-.feedbacks__window__container {
-    height: 580px;
-    width: 1212px;
-    border: 3px solid red;    
-    justify-content: space-between;
-    align-items: center;
-}
-
-.feedback {
-    height: 428px;
-    width: 390px; 
-    margin: 0 40px; 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;     
-}
-
-.customer__name {
-    justify-content: center;
+.decoration__footer {
     position: absolute;
-    display: flex;
-    align-items: center; /* Центрировать по вертикали */
-    width: 435px;
-    height: 50px;
-    margin-top: 80px;
+    left: -490px;
+    bottom: -150px;
+    z-index: 1;
 }
-.name__text {
-    text-align: center;
-    font-weight: 900;
-    font-family: 'Lato', serif;
-    font-size: 25px;
-    color: #000;
-}
-.customer__text {
-    justify-content: center;
-    position: absolute;
-    display: flex;
-    align-items: flex-end;
-    width: 350px;
-    height: auto;
-}
-.feedback__text {
-    text-align: center;
-    font-weight: 400;
-    font-family: 'Lato', serif;
-    font-size: 25px;
-}
-
-
 

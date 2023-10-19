@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
 }
@@ -81,11 +82,12 @@ a{
     padding-left: 2px;
 }
 .intro__suptitle{
+    width: 425px;
     text-align: justify;
     font-size: 16.67px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    letter-spacing: -0.013em;
+    letter-spacing: -0.2px;
     line-height: 1.17;
     margin-top: 20px;
     margin-bottom: 58px;
@@ -129,14 +131,14 @@ a{
     padding-left: 3px;
 }
 .logs__subtitle{
-    text-align: justify;
+    text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #e9e7e7;
     font-size: 16.67px;
     letter-spacing: -0.013em;
     line-height: 1.17;
-    margin: 23px 0 53px 1px;
+    margin: 23px 0 53px 0px;
 }
 .logs__button{
     font-family: 'Lato', sans-serif;
@@ -167,10 +169,10 @@ a{
 .section__img::after{
     content: '';
     display: block;
-    width: 53px;
-    height: 4px;
+    width: 52px;
+    height: 3px;
     background: #000;
-    margin-top: 25px;
+    margin-top: 27px;
     margin-bottom: 25px;
 }
 .section__title{
@@ -189,6 +191,7 @@ a{
     font-size: 16.67px;
     font-weight: 400;
     color: #232323;
+    word-spacing: -1.78px;
 /*    border: 3px solid #11cf60;*/
     margin-top: 25px;
 }
@@ -198,7 +201,7 @@ a{
 .section__plane {
     max-width: 820px;
     margin: 0 auto;
-    height: 685px;
+    height: 690px;
     margin-top: 53px;
 /*    border: 3px solid #11cf60;*/
 }
@@ -221,6 +224,16 @@ a{
     
     
 }
+.plane__title::after{
+    content: '';
+    display: block;
+    width: 243px;
+    height: 5px;
+    background: #000;
+    margin-left: 17px;
+    margin-top: -4px;
+}
+
 
 .plane__subtitle {
     text-align: center;
@@ -234,15 +247,14 @@ a{
 
 .text__underline{
     font-style: italic;
-
 }
 
 /*Mountain's section*/
 
 .section_mountains{
     max-width: 1440px;
-    height: 610;
-   /* border: 3px solid #1ad623;*/
+    height: 824px;
+   /* border: 3px solid #1ad623; */
     margin: 0 auto;
 }
 
@@ -252,7 +264,7 @@ a{
 }
 
 .first_mountain_img{
-    padding-left: 5px;
+    padding-left: 7px;
     /*border: 3px solid #781ad6;*/
 }
 
@@ -265,34 +277,41 @@ a{
 
 .mountains_title{
     width: 240px;
-   /* border: 3px solid #d67e1a;*/
+   /* border: 3px solid #d67e1a; */
     font-family: 'Cardo', serif;
     font-weight: 700;
     font-size: 36.34px;
     line-height: 1.376;
     padding-top: 68px;
-    padding-left: 5px;
+    padding-left: 2px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+   
 }
 
 .mountains__subtitle__1{
-    width: 325px;
+    width: 317px;
     /*border: 3px solid #d67e1a;*/
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     font-size: 16.66px;
-    margin-left: 43px;
+    margin-left: 42px;
     padding-top: 76px;
+    text-align: justify;
 }
 
 .mountains__subtitle__2{
-    width: 325px;
+    width: 317px;
     height: 226px;
    /* border: 3px solid #d67e1a;*/
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     font-size: 16.66px;
-    margin-left: 43px;
-    padding-top: 28px;
+    margin-left: 42px;
+    padding-top: 19.4px;
+    text-align: justify;
+    word-spacing: -1px;
 }
 
 .mountains_texts{
@@ -321,7 +340,8 @@ a{
     height: 3px; 
     background-color: #000;
     float: right;
-    margin-top: -11px;
+    margin-top: -13px;
+    margin-right: -5px;
     transform: rotate(45deg);
     border-bottom: 2px solid black;
 }
@@ -330,8 +350,12 @@ a{
     width: 140px; 
     height: 3px; 
     background-color: #000;
-    margin-top: 4px;
-    margin-left: 225px; /*Пожалуйста, ПРИДУМАЙТЕ, КАК ЭТО ПОФИКСИТЬ, Я УЖЕ УСТАЛ СИДЕТЬ В ПОДВАЛЕ И РАБОТАТЬ НА КИТАЙ, ХАЧУ ДАМОЙ*/
+    /* margin-top: 4px; */
+    margin-top: -1px;
+    margin-right: -32px;
+    float: right;
+    /* padding-left: 30px; */
+    /* margin-left: 225px; Пожалуйста, ПРИДУМАЙТЕ, КАК ЭТО ПОФИКСИТЬ, Я УЖЕ УСТАЛ СИДЕТЬ В ПОДВАЛЕ И РАБОТАТЬ НА КИТАЙ, ХАЧУ ДАМОЙ */
 }
 
 .bottom__tilted__line{
@@ -339,7 +363,8 @@ a{
     height: 3px; 
     background-color: #000;
     float: right;
-    margin-top: 17px;
+    margin-top: 12px;
+    margin-right: -5px;
     transform: rotate(135deg); 
 }
 
@@ -355,7 +380,6 @@ a{
     /* border: 3px solid yellow;  */
 }
 .content__inner{
-    margin-top: 300px;
     padding-top: 155px;
     display: flex;
     align-items: center;
@@ -378,16 +402,27 @@ a{
     font-weight: 900;
     font-size: 24.99px;
     vertical-align: bottom;
+    letter-spacing: -0.71px;
 }
 .content__sub__subtitle{
-    margin-top: 14px;
+    width: 453px;
+    margin-top: 15px;
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     font-size: 16.66px;
+    text-align: justify;
     margin-bottom: 53px;
+    letter-spacing: -0.2px;
+    word-spacing: -2px;
 }
 .content__img{
     margin-top: -55px;
+}
+
+/*  space  */
+
+.space{
+    height: 176px;
 }
 
 /*  section_last  */
@@ -395,7 +430,6 @@ a{
 .section__last__inner{
     display: flex;
     height: 516px;
-    margin-top: 200px;
 }
 .section__last__title{
     font-family: 'Cardo', serif;
@@ -403,29 +437,34 @@ a{
     font-size: 81.46px;
     line-height: 1;
     width: 750px;
-    margin-bottom: 120px;    
+    margin-bottom: 120px; 
+    letter-spacing: 0.2px;  
 }
 .section__last__subtitle{
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     font-size: 16.66px;
-    /* margin-bottom: 50px; */
     position: relative;
     height: 64px;
-    margin-left: 43px;
+    margin-left: 41px;
+    margin-top: -4px;
+    margin-bottom: 5px;
+    letter-spacing: -0.22px;
+
 }
 .section__last__subtitle::before{
     content: "";
     position: absolute;
     width: 736px;
-    top: -27px;
-    margin-left: -40px;
+    top: -25px;
+    margin-left: -38px;
     border-bottom: 3px solid #000; 
 }
 .section__create__line{
-    width: 738px;
+    width: 736px;
     border-top: 3px solid #000;
-    margin-top: -23px;
+    margin-top: -29px;
+    margin-left: 3px;
     position: relative;
 }
 .section__last__img{

@@ -551,7 +551,7 @@ a{
 
 .feedbacks__title__with__space {
     width: 1440px;
-    height: 530px;
+    height: 535px;
     display: flex;
     justify-content: center; /* Центрирование по горизонтали */
 }
@@ -564,6 +564,7 @@ a{
     margin-top: auto;
     text-align: center;
     margin-bottom: 60px;
+    margin-right: 5px;
 }
 /* /текст   */
 
@@ -586,7 +587,7 @@ a{
 
 .user__icon {
     position: absolute;
-    top: 32%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -597,7 +598,7 @@ a{
     font-size: 25px;
     color: #000;
     position: absolute;
-    top: 61%;
+    top: 63%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -608,7 +609,7 @@ a{
     font-family: 'Lato', serif;
     font-size: 16.6px;
     position: absolute;
-    top: 75%;
+    top: 77%;
     left: 49%;
     transform: translate(-50%, -50%);
     text-align: justify;

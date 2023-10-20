@@ -114,7 +114,7 @@ a{
 .intro__img__light{
     position: absolute;
     top: 38%;
-    left: 9.6%;
+    left: 12.2%;
     z-index: 1;
 }
 .intro__img__dark{
@@ -236,14 +236,14 @@ a{
 }
 .section__img__left{
     position: absolute;
-    top: -22%;
-    left: -3.4%;
+    top: -10%;
+    left: 0%;
     z-index: 1;
 }
 .section__img__right{
     position: absolute;
-    top: 21%;
-    left: 95%;
+    top: 27.2%;
+    left: 94.8%;
     z-index: 1;
 }
 
@@ -252,6 +252,7 @@ a{
     max-width: 1440px;
     margin: 0 auto;
     background: #e9e7e7;
+    position: relative;
 }
 .section__plane {
     max-width: 820px;
@@ -264,15 +265,8 @@ a{
 
 .section__plane__scribble__dark {
     position: absolute;
-    left: -175px;
-    top: 425px;
-}
-
-.section__plane__scribble__lightest {
-    position: absolute;
-    right: -570px;
-    top: -170px;
-    z-index: 1;
+    left: -21.4%;
+    top: 62%;
 }
 
 .plane__img {
@@ -317,7 +311,11 @@ a{
 .text__underline{
     font-style: italic;
 }
-
+.section__plane__img__right{
+    position: absolute;
+    top: -27%;
+    left: 81.5%;
+}
 /*Mountain's section*/
 
 .section_mountains{
@@ -456,6 +454,7 @@ a{
     /* display: inline-flex;
     align-items: center; */
     /* border: 3px solid yellow;  */
+    position: relative;
 
 }
 .content__inner{
@@ -497,7 +496,12 @@ a{
 .content__img{
     margin-top: -55px;
 }
-
+.content__img__left{
+    position: absolute;
+    top: 84.8%;
+    left: 0%;
+    z-index: 1;
+}
 /*  space  */
 
 .space{
@@ -585,7 +589,8 @@ a{
     height: 1152px;
     margin: 0 auto;
     background: #e9e7e7;  
-/*     border: 3px solid red;  */   
+/*     border: 3px solid red;  */  
+    position: relative; 
 }
 
 .feedbacks__title__with__space {
@@ -675,6 +680,16 @@ a{
     left: 100%;
     transform: translate(-50%, -50%);
     
+}
+
+.feedbacks__img__left{
+    position: absolute;
+    top: 23%;
+}
+.feedbacks__img__right{
+    position: absolute;
+    top: 81.2%;
+    left: 71.6%;
 }
 /* /картинки */
 
@@ -865,8 +880,7 @@ textarea::placeholder {
 
 .decoration__footer {
     position: absolute;
-    left: -113px;
-    bottom: -150px;
-    z-index: 1;
+    left: -9.4%;
+    bottom: -36%;
 }
 

@@ -113,14 +113,14 @@ a{
 }
 .intro__img__light{
     position: absolute;
-    top: 345px;
-    left: 185px;
+    top: 38%;
+    left: 9.6%;
     z-index: 1;
 }
 .intro__img__dark{
     position: absolute;
     top: 526px;
-    left: 1553px;
+    left: 81.6%;
     z-index: 1;
 }
 
@@ -172,14 +172,13 @@ a{
 }
 .logs__img__left{
     position: absolute;
-    top: 52px;
-    left: 0px;
+    top: 13%;
     z-index: 1;
 }
 .logs__img__right{
     position: absolute;
-    top: 236px;
-    left: 965px;
+    top: 61%;
+    left: 67%;
     z-index: 1;
 }
 /*  section  */
@@ -190,6 +189,7 @@ a{
     height: 820px;
     margin-top: 166px;
     /*border: 3px solid #df1010;*/
+    position: relative;
 }
 .section__inner{
     display: flex;
@@ -225,6 +225,18 @@ a{
     word-spacing: -1.78px;
 /*    border: 3px solid #11cf60;*/
     margin-top: 25px;
+}
+.section__img__left{
+    position: absolute;
+    top: -22%;
+    left: -3.4%;
+    z-index: 1;
+}
+.section__img__right{
+    position: absolute;
+    top: 21%;
+    left: 95%;
+    z-index: 1;
 }
 
 /* plane section */

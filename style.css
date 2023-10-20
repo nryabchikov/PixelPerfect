@@ -527,6 +527,25 @@ a{
     margin-left: 73px;
 }
 
+.secton__last__plus__horizontal__line {
+    width: 19px; 
+    height: 3px; 
+    background-color: #000;
+    float: right;
+    margin-right: 53px;
+    margin-top: 5px;
+}
+
+.secton__last__plus__vertical__line {
+    width: 19px; 
+    height: 3px; 
+    background-color: #000;
+    float: right;
+    margin-right: -20px;
+    margin-top: 5px;
+    transform: rotate(90deg);
+}
+
 /* feedbacks */
 
 /* текст  */
@@ -807,7 +826,7 @@ textarea::placeholder {
 
 .decoration__footer {
     position: absolute;
-    left: -490px;
+    left: -113px;
     bottom: -150px;
     z-index: 1;
 }

@@ -686,7 +686,7 @@ a{
     background: #e9e7e7;
 }
 .register__form {
-    max-width: 1214px;
+    max-width: 1210px;
     height: 948px;
     margin: 0 auto;
 /*    border: 3px solid red;*/
@@ -729,7 +729,7 @@ a{
     color: #232323;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
-    padding-left: 24px;
+/*    padding-left: 24px;*/
     background: #e9e7e7; 
 }
 
@@ -746,8 +746,8 @@ a{
     font-family: 'Lato', sans-serif;
     margin-bottom: 57px;
     resize: none;
-    padding-top: 20px;
-    padding-left: 23px;
+/*    padding-top: 20px;*/
+/*    padding-left: 23px;*/
     background: #e9e7e7; 
 }
 
@@ -763,6 +763,8 @@ a{
     font-family: "Lato";
     text-align: center;
     letter-spacing: 0.7px;
+    padding-bottom: 4px;
+    padding-right: -5px;
 }
 
 input::placeholder {
